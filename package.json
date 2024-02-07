@@ -1,0 +1,21 @@
+{
+  "name": "php_chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Danya-hub/php_chat.git",
+  "author": "Danya-hub <6694524@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "postcss ./src/assets/styles/index.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.0.0"
+  }
+}

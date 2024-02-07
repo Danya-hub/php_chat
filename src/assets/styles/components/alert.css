@@ -1,0 +1,11 @@
+.error_message {
+  @apply hidden px-4 py-2 my-4 bg-red-300 border rounded border-red-600;
+}
+
+.error_message.visible {
+  @apply block;
+}
+
+.error_message.sticky-position {
+  @apply sticky top-6 left-0 z-[1];
+}

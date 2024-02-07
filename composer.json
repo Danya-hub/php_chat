@@ -1,0 +1,22 @@
+{
+  "name": "danyan/php_chat",
+  "description": "chat",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Danya-hub",
+      "email": "6694524@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "firebase/php-jwt": "^6.10",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "minimum-stability": "dev"
+}

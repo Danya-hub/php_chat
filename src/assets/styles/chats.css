@@ -1,0 +1,21 @@
+#cancel-search,
+#new-chats,
+.top-chat-panel,
+.message-form,
+.selected-chat .empty {
+	@apply hidden;
+}
+
+.search-state #cancel-search, 
+.search-state #new-chats {
+	@apply block;
+}
+
+.selected-chat .message-form,
+.selected-chat .top-chat-panel {
+	@apply flex;
+}
+
+.empty {
+	@apply text-center;
+}

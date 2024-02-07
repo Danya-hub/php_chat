@@ -1,0 +1,7 @@
+.avatar {
+  @apply relative block w-[150px] h-[150px] cursor-pointer rounded overflow-hidden before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-black before:opacity-30 before:hover:opacity-100 before:content-["+"] before:text-white before:flex before:justify-center before:items-center before:text-7xl;
+}
+
+.avatar img {
+  @apply w-full h-full object-cover;
+}

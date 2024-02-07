@@ -1,0 +1,11 @@
+.loading {
+	@apply overflow-hidden;
+}
+
+.loader {
+	@apply hidden;
+}
+
+.loading .loader {
+	@apply flex;
+}

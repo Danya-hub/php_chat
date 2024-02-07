@@ -1,0 +1,11 @@
+.form .field {
+  @apply block mb-2.5 w-full;
+}
+
+.form .field input:not([type="file"]) {
+  @apply block border-2 border-gray-500 px-2 py-1 w-full;
+}
+
+.form .field span {
+  @apply block mb-1;
+}

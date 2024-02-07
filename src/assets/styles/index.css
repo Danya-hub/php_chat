@@ -1,0 +1,32 @@
+@import "./signin.css";
+@import "./signup.css";
+@import "./chats.css";
+
+@import "./components/alert.css";
+@import "./components/logo.css";
+@import "./components/form.css";
+@import "./components/loader.css";
+
+@import "./utils/grid.css";
+@import "./utils/size.css";
+@import "./utils/text.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+	min-height: 100vh; 
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+ 
+::-webkit-scrollbar-thumb {
+	@apply rounded-full;
+}
+
+:hover::-webkit-scrollbar-thumb {
+	@apply bg-gray-600;
+}
